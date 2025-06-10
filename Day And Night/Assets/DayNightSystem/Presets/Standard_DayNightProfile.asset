@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b39a3ddbcf741448a1cbf20790337a2, type: 3}
+  m_Name: Standard_DayNightProfile
+  m_EditorClassIdentifier: 
+  UnitInGameScale: 2
+  UnitRealTimeScale: 0
+  InGameUnitValue: 1.5
+  InGameCycleHours: 24
+  skyboxType: 0
+  keyframes:
+  - Name: Dawn
+    time: 5
+    skyProcedural: {fileID: 2100000, guid: cbaad9c9a290127478d12284be86398f, type: 2}
+    skyCubemap: {fileID: 0}
+    skyPanoramic: {fileID: 0}
+    skySixSided: {fileID: 0}
+    lightColor: {r: 1, g: 0.9581761, b: 0.7311321, a: 1}
+    lightIntensity: 1
+    lightRotation: {x: 30, y: 0, z: 50}
+  - Name: Day
+    time: 6.5
+    skyProcedural: {fileID: 2100000, guid: 96476f37a1a0f0f41aadf90adf178d2d, type: 2}
+    skyCubemap: {fileID: 0}
+    skyPanoramic: {fileID: 0}
+    skySixSided: {fileID: 0}
+    lightColor: {r: 0.9339623, g: 0.83688027, b: 0.5771182, a: 1}
+    lightIntensity: 1
+    lightRotation: {x: 110, y: 0, z: 0}
+  - Name: Dusk
+    time: 20
+    skyProcedural: {fileID: 2100000, guid: f087eabc14ad1f641bc4716affd18269, type: 2}
+    skyCubemap: {fileID: 0}
+    skyPanoramic: {fileID: 0}
+    skySixSided: {fileID: 0}
+    lightColor: {r: 0.7830189, g: 0.35559338, b: 0.13665895, a: 1}
+    lightIntensity: 1
+    lightRotation: {x: 170, y: 0, z: 0}
+  - Name: Night
+    time: 21.5
+    skyProcedural: {fileID: 2100000, guid: 7b3f2355812298242be8706bbd2601fa, type: 2}
+    skyCubemap: {fileID: 0}
+    skyPanoramic: {fileID: 0}
+    skySixSided: {fileID: 0}
+    lightColor: {r: 0.38941962, g: 0.55719346, b: 0.6784314, a: 1}
+    lightIntensity: 0.33
+    lightRotation: {x: 50, y: 0, z: 0}
